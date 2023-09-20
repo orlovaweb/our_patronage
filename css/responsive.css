@@ -7,12 +7,13 @@
     right: 0px;
     top: 0px;
     font-size: 20px;
-    background-color: #0081C8;
+    background-color: #0C0371;
     padding-top: 77px;
   }
   .header__menu ul {
    display: flex;
    flex-direction: column;
+   align-items: center;
   }
   .header__menu ul li, .header__menu ul li + li {
     padding-bottom: 30px;
@@ -50,7 +51,6 @@
   }
 
   .header__connection {
-    display: flex;
     margin-left: auto;
   }
 }
@@ -77,24 +77,9 @@
     display: flex;
     flex-direction: column;
   }
-  .service__item-btn {
-    margin-top: 45px;
-    order: 2;
-    width: 270px;
-    text-align: center;
-    margin: 45px auto 22px;
-  }
+  
 }
-@media screen and (max-width: 1172px) {
-  .service__calculate-box::before {
-    top: -50px;
-    left: 0px;
-  }
-  .service__calculate-box::after {
-    bottom: 10px;
-    right: 0px;
-  }
-}
+
 @media screen and (max-width: 1096px) {
   .kind__inner {
     flex-direction: column;
@@ -154,13 +139,20 @@
   }
 }
 @media screen and (max-width: 900px) {
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+  }
   .offer .offer__description {
     font-size: 16px;
   }
   .offer .offer__title h1 {
     font-size: 36px;
     line-height: 40px;
-    padding: 0 30px;
+    /* padding: 0 30px; */
+  }
+  .offer{
+    padding: 240px 0 0 30px;
   }
 
   .slider__item-box {
@@ -174,6 +166,18 @@
   }
 }
 @media screen and (max-width: 566px) {
+  .header__logo img{
+    width: 25px;
+    height: 25px;
+  }
+  .header__logo-text p{
+    font-size: 18px;
+  }
+  .header__logo-text p+p{
+    font-size: 10px;
+    letter-spacing: 1.6px;
+  }
+  
   .form__box p {
     padding-top: 18px;
     width: 100%;
@@ -186,8 +190,8 @@
   }
 }
 @media screen and (max-width: 476px) {
-  .offer {
-    background-image: url(../images/content/bg-offer-mobile.jpg);
+  .header__mail {
+    display: none;
   }
   .offer .offer__description {
     font-size: 16px;
@@ -198,7 +202,7 @@
   }
 
   .service__item-wrapper {
-    width: 341px;
+    max-width: 341px;
   }
   .service__item-title h3 {
     font-size: 24px;
