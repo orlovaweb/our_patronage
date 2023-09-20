@@ -358,9 +358,10 @@ p{
   margin-top: 30px;
   background-color: #fff;
   border-radius: 10px;
-  border: 0.5px solid #d4d4d4;
+  /* border: 0.5px solid #d4d4d4; */
   text-align: center;
   box-sizing: border-box;
+  box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.8);
 }
 
 .benefits__item + .benefits__item {
