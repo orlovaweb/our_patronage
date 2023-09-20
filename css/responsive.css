@@ -168,7 +168,6 @@
     top: 0px;
   }
 }
- 
   
 @media screen and (max-width: 900px) {
   h2 {
@@ -181,7 +180,6 @@
   .offer .offer__title h1 {
     font-size: 36px;
     line-height: 40px;
-    /* padding: 0 30px; */
   }
   .offer{
     padding: 240px 0 0 30px;
