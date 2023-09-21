@@ -415,6 +415,7 @@ p{
 }
 .principles__item h4{
   margin: 0px;
+  font-size: 18px;
 }
 .principles__item p{
   margin: 0px;
@@ -831,9 +832,6 @@ p{
 /* end faq */
 
 /*map start*/
-/* .map{
-  background-color: #F3F4F6;
-} */
 .map__title{
   padding: 50px 0 40px;
 }
