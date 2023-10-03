@@ -35,13 +35,14 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 52px;
+  font-size: 44px;
   line-height: 130%;
   margin: 0;
   padding: 0;
@@ -58,7 +59,7 @@ h2 {
 h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 45px;
   margin: 0;
   padding: 0;
@@ -212,7 +213,7 @@ p{
   min-height: 574px;
   color: #fff;
   display: flex;
-  padding: 168px 0 0 30px;
+  padding: 128px 0 0 30px;
   margin: 0 auto;
 }
 .offer .offer__description {
@@ -244,6 +245,12 @@ p{
 .service__title{
   color: #373737;
 }
+.service__text{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150%;
+}
 .service__inner {
   display: flex;
   flex-wrap: wrap;
@@ -256,6 +263,7 @@ p{
   border-radius: 10px;
   margin-top: 28px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  height: 100%;
 }
 .service__item-wrapper {
   display: flex;
@@ -287,7 +295,7 @@ p{
   padding-top: 10px;
 }
 .service__item-text {
-  padding-top: 20px;
+  padding: 20px 0 25px;
   max-width: 405px;
 }
 .service__item-cta {
@@ -295,15 +303,20 @@ p{
   margin: 0 15px;
 }
 .service__item-btn{
+  padding: 12px 16px;
+  font-size: 14px;
   text-align: center;
+  border-color: #FB6F03;
+  color:#FB6F03;
+  box-shadow: 4px 4px 8px 0px rgba(255, 104, 3, 0.2);
 }
 .service__item-btn:hover{
-  color:#FB6F03;
-  border-color: #FB6F03;
+  background-color:#FB6F03 ;
+  color:#fff;
 }
 .service__item-bt:active{
-  color:#b14e03;
-  border-color: #b14e03;
+  background-color:#b14e03 ;
+  color:#fff;
 }
 
 .service__item-more {
@@ -321,10 +334,10 @@ p{
   order: 2;
 }
 
-.service__item-btn {
+/* .service__item-btn {
   color:#0C0371;
   border-color: #0C0371;
-}
+} */
 
 
 
@@ -405,6 +418,7 @@ p{
   font-weight: 700;
 }
 /* end benefits */
+
 /*start principles*/
 .principles{
   margin-top: 70px;
