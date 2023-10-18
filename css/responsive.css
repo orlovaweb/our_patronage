@@ -302,12 +302,19 @@
   /* .service__item-wrapper {
     max-width: 341px;
   } */
+
   .service__item-title h3 {
     font-size: 24px;
     line-height: 28px;
   }
   .service__item-text {
     font-size: 14px;
+  }
+  .service__item-price p{
+    margin-bottom: 10px;
+  }
+  .service__item-price {
+    margin-bottom: 10px;
   }
 
  
