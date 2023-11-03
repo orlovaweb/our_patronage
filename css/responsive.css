@@ -194,6 +194,11 @@
   .news__item {
     margin-left: 32px;
   }
+  .work-btn{
+    transform: rotate(270deg) translate(60px,60px);
+    font-size: 12px;
+    padding: 5px 10px;
+  }
 }
 @media screen and (max-width: 566px) {
   .btn {

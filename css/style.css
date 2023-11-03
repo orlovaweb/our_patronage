@@ -30,6 +30,7 @@ body {
   font-size: 16px;
   line-height: 130%;
   color: #6D6D6D;
+  position: relative;
 }
 
 img {
@@ -100,6 +101,14 @@ p{
 /* end global settings */
 
 /* start header */
+.header{
+  position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255 ,255, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -214,7 +223,7 @@ p{
   color: #fff;
   display: flex;
   padding: 128px 0 0 30px;
-  margin: 0 auto;
+  margin: 78px auto 0;
 }
 .offer .offer__description {
   font-size: 20px;
@@ -469,7 +478,8 @@ p{
 /* start stages*/
 
 .stages{
-  margin-top: 80px;
+ padding-top: 80px;
+  background-color: #F3F4F6;
 }
 .stages__title{
   margin-bottom: 80px;
@@ -567,7 +577,7 @@ p{
 
 /* start news */
 .news {
-  background-color: #F3F4F6;
+  /* background-color: #F3F4F6; */
   padding: 74px 0 94px;
   text-align: center;
 }
@@ -703,7 +713,7 @@ p{
 }
 .form__title {
   padding-top: 80px;
-  color: #0081C8;
+  color: #FB6F03;
   line-height: 54px;
   max-width: 456px;
   width: 100%;
@@ -752,7 +762,7 @@ p{
   display: block;
   border: none;
   font-size: 16px;
-  background-color: #36BCBB;
+  background-color: #FB6F03;
   color: #fff;
   font-weight: 700;
   border-radius: 30px;
@@ -763,10 +773,11 @@ p{
   height: 59px;
 }
 .form__box button:hover {
-  background-color: #26a5a5;
+  /* background-color: #FB6F03; */
+  filter: brightness(1.10);
 }
 .form__box button:active {
-  background-color: #1e8383;
+  background-color: #d86004;
 }
 .form__box p {
   display: block;
@@ -969,3 +980,19 @@ p{
 }
 /* end  footer */
 
+.work-btn{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 30px;
+  
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  transform: rotate(270deg) translate(75px,75px);
+  background-color: #f16a02;
+  border: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  z-index: 10;
+}
