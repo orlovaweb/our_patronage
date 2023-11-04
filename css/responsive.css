@@ -200,6 +200,15 @@
     padding: 5px 10px;
   }
 }
+@media screen and (max-width: 609px) {
+  .thanks{
+    margin: 90px 0 50px;
+  }
+  .thanks-wrapper{
+    gap: 0px;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 566px) {
   .btn {
     padding: 10px 15px;
@@ -436,7 +445,8 @@
     margin-bottom: 30px;
   }
   .form__box button {
-    padding: 20px 120px;
+    /* padding: 20px 120px; */
+    width: 100%;
   }
 
   .footer {

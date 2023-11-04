@@ -51,6 +51,10 @@ $(function () {
    */
   const converter = new showdown.Converter();
   const html = converter.makeHtml(news);
-  document.querySelector("#news__inner").innerHTML = html;
+  const newsBlock = document.querySelector("#news__inner");
+  if (newsBlock) {
+
+    newsBlock.innerHTML = html;
+  }
 });
 

@@ -723,7 +723,7 @@ p{
   max-width: 537px;
   width: 100%;
 }
-.form__box input {
+.form__box input,.form__box textarea {
   display: block;
   width: 100%;
   margin-bottom: 40px;
@@ -736,7 +736,7 @@ p{
   padding-right: 33px;
   outline: none;
 }
-.form__box input::-webkit-input-placeholder {
+.form__box input::-webkit-input-placeholder ,.form__box textarea::placeholder{
   color: #6D6D6D;
 }
 .form__box input::-moz-placeholder {
@@ -995,4 +995,28 @@ p{
   font-size: 14px;
   padding: 10px 20px;
   z-index: 10;
+}
+/* Thanks page */
+.thanks{
+  margin: 120px 0 50px;
+}
+.thanks-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+}
+.thanks__img{
+  width: 200px;
+  height: 200px;
+  background: url(../images/thanks.svg) no-repeat center center;
+  background-size: cover;
+}
+.thanks__text{
+  max-width: 300px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #373737;
 }
