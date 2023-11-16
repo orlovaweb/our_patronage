@@ -987,8 +987,8 @@ p{
   border-radius: 30px;
   
   position:fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 22px;
+  right: -23px;
   transform: rotate(270deg) translate(75px,75px);
   background-color: #f16a02;
   border: none;
