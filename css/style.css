@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   line-height: 130%;
   color: #6D6D6D;
-  position: relative;
+  /* position: relative; */
 }
 
 img {
@@ -250,6 +250,7 @@ p{
 .service {
   background-color: #f3f4f6;
   padding: 100px 0 100px;
+  overflow-x:hidden ;
 }
 .service__title{
   color: #373737;
@@ -987,9 +988,9 @@ p{
   border-radius: 30px;
   
   position:fixed;
-  bottom: 22px;
-  right: -23px;
-  transform: rotate(270deg) translate(75px,75px);
+  bottom: 0;
+  right: 0;
+  transform: rotate(270deg) translate(99px,98px);
   background-color: #f16a02;
   border: none;
   font-size: 14px;
